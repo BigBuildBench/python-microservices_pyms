@@ -1,0 +1,14 @@
+---
+pyms:
+  services:
+    metrics: true
+    requests:
+      data: /
+    tracer:
+      client: "jaeger"
+      component_name: "Python Microservice with Jaeger"
+  config:
+    DEBUG: true
+    TESTING: true
+    APP_NAME: "Python Microservice with Jaeger"
+    APPLICATION_ROOT: "/"
